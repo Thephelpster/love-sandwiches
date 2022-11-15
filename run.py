@@ -51,25 +51,24 @@ def validate_data(values):
         return False
 
     return True
-"""
-def update_sales_worksheet(data):
 
-    update sales worksheet, add new row with the list data provided
+#def update_sales_worksheet(data):
+#    """
+#    update sales worksheet, add new row with the list data provided
+#    """
+#    print("updated sales worksheet...\n")
+#    sales_worksheet = SHEET.worksheet("sales")
+#    sales_worksheet.append_row(data)
+#    print("sales worksheet updated successfully.\n")
 
-    print("updated sales worksheet...\n")
-    sales_worksheet = SHEET.worksheet("sales")
-    sales_worksheet.append_row(data)
-    print("sales worksheet updated successfully.\n")
-
-def update_surplus_worksheet(data):
-
-    update surplus worksheet, add new row with the list data provided
-
-    print("update surplus worksheet...\n")
-    surplus_worksheet = SHEET.worksheet("surplus")
-    surplus_worksheet.append_row(data)
-    print("surplus worksheet updated succesfully.\n")
-"""
+#def update_surplus_worksheet(data):
+#    """
+#    update surplus worksheet, add new row with the list data provided
+#    """
+#    print("update surplus worksheet...\n")
+#    surplus_worksheet = SHEET.worksheet("surplus")
+#    surplus_worksheet.append_row(data)
+#    print("surplus worksheet updated succesfully.\n")
 
 def update_worksheet(data, worksheet):
     """
